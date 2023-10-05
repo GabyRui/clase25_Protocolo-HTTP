@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>¿Cómo se transfiere la informacion basado en el protocolo http?</h1>
+    <p>
+    Se puede transferir información en Javascript a partir del protocolo HTTP por medio de distintas técnicas y API disponibles. Las más aplicadas son las siguientes: <br>
+
+    -XML HttpRequest: Permite realizar solicitudes HTTP asíncronas. Es decir, enviar y recibir datos entre el cliente y el servidor sin recargar la página. Es la API más antigua.<br>
+
+    -Fetch: Es más flexible y de fácil uso para la realización de solicitudes HTTP. Se utilizan promesas y permite enviar solicitudes GET, POST, PUT, DELETE. Es más utilizada en sitiosn web modernos. <br>
+
+    -Axios: Facilita más las solicitudes HTTP, y permite un mejor manejor de errores por medio de un API de un uso más sencillo. También, permite realizar solicitudes GET, POST, PUT, DELETE. También, tiene una estructura más eficiente para los desarrolladores.</p>
+
+    <h1>¿Qué son los verbos HTTP y cuales usamos?</h1>
+    <p>
+    También son llamados métodos HTTP, y hacen referencia a las acciones utilizadas para nombrar las operaciones que se deben realizar en una parte del sitio web, y definen el tipo de solicitud que se está realizando. <br>
+
+    -GET (obtener información): Permite solicitar recursos del servidor y obtener información sin alterar los datos. Un ejemplo común, es al momento de cargar un sitio web, ya que el navegador emite solicitudes, para obtener toda la información contenida. <br>
+
+    -POST (crear información): Envía datos al servidor para que sean procesados, como por ejemplo, los formularios. <br>
+
+    -PUT (actualizar información): Actualiza un recurso que se encuentra en el servidor. Mediante una solicitud PUT se pueden enviar datos al servidor para reemplazart o actualizar el recurso según los datos proporcionados. <br>
+
+    -DELETE (eliminar información): Elimina un recurso del servidor de forma permanente.
+    </p>
+
+    <h1>¿Qué es un crud?</h1>
+    <p>Hace referencia a las operaciones básicas que se realizan en un sistema de gestión de datos. Las 4 operaciones CRUD se refiere a las siguientes acciones: <br>
+
+    -C (Create): La operación permite la creación de nuevos datos en la base de almacenamiento. <br>
+
+    -R (Read): La lectura quiere decir "recuperación de datos ya existentes en la base". Lee información específica según criterios a detalle, como por ejemplo, buscar un registro. <br>
+
+    -U (Update): Operación de actualización que trabaja en la modificación de los datos existentes en la base. Quiere decir que los valores de un registro cambiarán. <br>
+
+    -D (Delete): Elimina datos existentes de la base de almacenamiento. <br>
+
+    CRUD es esencial ya que incorpora las operaciones más comunmente realizadas por los usuarios. Los sitios web y las aplicaciones implementan CRUD para que los usuarios tengan una interacción efectiva y práctica.
+    </p>
+
+    <h1>¿Qué es asincronía y sincronia?</h1>
+    <p>
+    Son conceptos de esencial conocimiento en Javascript, ya que hace referencia a cómo se procesan las tareas en un programa.
+    El concepto de cada uno es el siguiente. <br>
+
+    -Sincronía: Las tareas son trabajadas en secuencia, es decir, una inmediatamente después de la otra. La tarea indicada debe completarse para pasar a la siguiente. <br>
+
+    -Asincronía: En este caso, la ejecución de las tareas se pueden dar en paralelo, y sin necesidad de que la tarea establecida anteriormente sea completada. Se utilizan Callbacks, Promises y Async/Await para el manejo de la asincronía.</p>
+
+    <h1>¿Cómo maneja la asincronia js?</h1>
+    <p>Se utilizan mecanismos para la ejecución de tareas. Estos son los siguientes <br>
+
+        -Callbacks: Es una forma antigua de trabajar la asincronía en Javascript y son funciones que sirven de argumentos para otras funciones, y se procesan una vez se complete una operación asincrónica. <br>
+
+        -Promise: Es una forma más actualizada de manejar la asincronía, ya que una promesa hace referencia a un valor que puede estar disponible en cualquier momento. Tiene una estructura más eficiente y legible. <br>
+
+        -Async/Await: Este método simplifica más el trabajo de asincronía en Javascript, y es aun más legible y con una estructura más simple.</p>
+
+    <h1>¿Cómo realizar peticionas js / como manejar la data?</h1>
+    <p> Se utilizan APIS como fetch (), aunque también se puede manejar con AXIOS. <br>
+
+    Primeto,se utiliza GET para realizar una solicitud HTTP, y se utiliza la función FETCH. Aquí se debe proporcionar una URL. Luego, se añade .then, lo cual procesa la respuesta para obtener los datos, y se utiliza json () para datos, y text (), para únicamente textos. <br>
+
+    En la siguiente pregunta se podrá apreciar un ejemplo en Javascript.
+    </p>
+
+    <h1>Realizar un consumo de api rest y consolear la data.</h1>
+    <p>Revisar ejemplo en Javascript</p>
+    
+  
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
